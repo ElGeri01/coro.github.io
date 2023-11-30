@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'fuente';
+    src: url('recursos/fuentes/Summeron-Ñ.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-size: smaller;
+}
+
+:root{
+    --nar: rgb(255, 136, 0);
+    --naro: rgb(185, 99, 0);
+    --neg: rgb(0,0,0);
+    --mor: rgb(128,0,128);
+    --ver: rgb(0, 128, 0);
+    --bla: rgb(255,255,255);
+    --roj: rgb(255,0,0);
+    --ama: rgb(254,255,2);
+    --beig: rgb(242,234,207);
+
+}
+body, .Cancioneros, .PE, .titulo, .BI, .BD, .HOY, .BC{
+    border: 1px solid var(--neg);
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Cancioneros{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    width: 80%;
+}
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.PE, .HOY{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.PE{
+    width: 65%;
+}
+.HOY{
+    width: 35%;
+}
+.titulo{
+    height: 35%;
+}
+.B{
+    display: flex;
+}
+.BI, .BD{
+    width: 50%;
+}
+.boton{
+    padding: 5%;
+    background-color: var(--mor);
+    border-radius: 50px;
+    margin: 1%;
+}
